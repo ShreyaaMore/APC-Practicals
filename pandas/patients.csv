@@ -1,0 +1,10 @@
+Patient_ID,Name,Age,Gender,Disease,Medical_Expense
+P101,Ramesh Gupta,65,Male,Diabetes,45000
+P102,Sunita Sen,45,Female,Hypertension,32000
+P103,Kishore Kumar,72,Male,Cardiac,85000
+P104,Anjali Rao,28,Female,Asthma,15000
+P105,Omkar Joshi,68,Male,Cardiac,92000
+P106,Bhavna Patel,54,Female,Diabetes,38000
+P107,Vasant Kulkarni,75,Male,Arthritis,55000
+P108,Divya Nair,33,Female,Asthma,18000
+
