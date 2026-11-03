@@ -1,0 +1,755 @@
+{
+    "university_name": "National University Management System",
+    "departments": [
+        {
+            "department_id": 1,
+            "name": "Computer Science & Engineering"
+        },
+        {
+            "department_id": 2,
+            "name": "Electronics & Communication"
+        }
+    ],
+    "instructors": [
+        {
+            "id": "P-001",
+            "name": "Dr. Rajesh Sharma",
+            "age": 45,
+            "email": "rajesh.sharma@uni.edu.in",
+            "specialization": "Software Engineering",
+            "salary": 125000,
+            "assigned_courses": [
+                "CS101"
+            ]
+        },
+        {
+            "id": "P-002",
+            "name": "Dr. Sunita Rao",
+            "age": 40,
+            "email": "sunita.rao@uni.edu.in",
+            "specialization": "Data Science & AI",
+            "salary": 115000,
+            "assigned_courses": [
+                "CS102"
+            ]
+        },
+        {
+            "id": "P-003",
+            "name": "Prof. Amit Verma",
+            "age": 36,
+            "email": "amit.verma@uni.edu.in",
+            "specialization": "Embedded Systems",
+            "salary": 95000,
+            "assigned_courses": [
+                "EC201"
+            ]
+        }
+    ],
+    "courses": [
+        {
+            "course_code": "CS101",
+            "title": "Python & OOP Fundamentals",
+            "credit_hours": 4,
+            "department_id": 1,
+            "instructor_id": "P-001"
+        },
+        {
+            "course_code": "CS102",
+            "title": "Data Structures & Algorithms",
+            "credit_hours": 4,
+            "department_id": 1,
+            "instructor_id": "P-002"
+        },
+        {
+            "course_code": "EC201",
+            "title": "Digital Signal Processing",
+            "credit_hours": 3,
+            "department_id": 2,
+            "instructor_id": "P-003"
+        }
+    ],
+    "students": [
+        {
+            "id": "P-004",
+            "name": "Aarav Patel",
+            "age": 20,
+            "email": "aarav.patel@uni.edu.in",
+            "level": "Junior",
+            "gpa": 9.2
+        },
+        {
+            "id": "P-005",
+            "name": "Priya Nair",
+            "age": 21,
+            "email": "priya.nair@uni.edu.in",
+            "level": "Senior",
+            "gpa": 8.73
+        },
+        {
+            "id": "P-006",
+            "name": "Rohan Gupta",
+            "age": 19,
+            "email": "rohan.gupta@uni.edu.in",
+            "level": "Freshman",
+            "gpa": 8.58
+        },
+        {
+            "id": "P-007",
+            "name": "Ananya Iyer",
+            "age": 20,
+            "email": "ananya.iyer@uni.edu.in",
+            "level": "Sophomore",
+            "gpa": 9.24
+        },
+        {
+            "id": "P-008",
+            "name": "Aditya Sharma",
+            "age": 21,
+            "email": "aditya.sharma@uni.edu.in",
+            "level": "Senior",
+            "gpa": 8.92
+        },
+        {
+            "id": "P-009",
+            "name": "Sneha Kulkarni",
+            "age": 20,
+            "email": "sneha.kulkarni@uni.edu.in",
+            "level": "Junior",
+            "gpa": 9.11
+        },
+        {
+            "id": "P-010",
+            "name": "Vikram Malhotra",
+            "age": 19,
+            "email": "vikram.malhotra@uni.edu.in",
+            "level": "Freshman",
+            "gpa": 8.02
+        },
+        {
+            "id": "P-011",
+            "name": "Diya Sen",
+            "age": 20,
+            "email": "diya.sen@uni.edu.in",
+            "level": "Sophomore",
+            "gpa": 8.97
+        },
+        {
+            "id": "P-012",
+            "name": "Rahul Verma",
+            "age": 22,
+            "email": "rahul.verma@uni.edu.in",
+            "level": "Senior",
+            "gpa": 8.62
+        },
+        {
+            "id": "P-013",
+            "name": "Pooja Reddy",
+            "age": 21,
+            "email": "pooja.reddy@uni.edu.in",
+            "level": "Junior",
+            "gpa": 9.41
+        },
+        {
+            "id": "P-014",
+            "name": "Siddharth Rao",
+            "age": 19,
+            "email": "siddharth.rao@uni.edu.in",
+            "level": "Freshman",
+            "gpa": 8.25
+        },
+        {
+            "id": "P-015",
+            "name": "Neha Joshi",
+            "age": 20,
+            "email": "neha.joshi@uni.edu.in",
+            "level": "Sophomore",
+            "gpa": 8.97
+        },
+        {
+            "id": "P-016",
+            "name": "Arjun Menon",
+            "age": 21,
+            "email": "arjun.menon@uni.edu.in",
+            "level": "Junior",
+            "gpa": 8.85
+        },
+        {
+            "id": "P-017",
+            "name": "Kavita Deshmukh",
+            "age": 22,
+            "email": "kavita.deshmukh@uni.edu.in",
+            "level": "Senior",
+            "gpa": 9.08
+        },
+        {
+            "id": "P-018",
+            "name": "Varun Kapoor",
+            "age": 19,
+            "email": "varun.kapoor@uni.edu.in",
+            "level": "Freshman",
+            "gpa": 8.14
+        },
+        {
+            "id": "P-019",
+            "name": "Meera Pillai",
+            "age": 20,
+            "email": "meera.pillai@uni.edu.in",
+            "level": "Sophomore",
+            "gpa": 9.39
+        },
+        {
+            "id": "P-020",
+            "name": "Tanmay Chatterjee",
+            "age": 21,
+            "email": "tanmay.chatterjee@uni.edu.in",
+            "level": "Junior",
+            "gpa": 8.6
+        },
+        {
+            "id": "P-021",
+            "name": "Riya Bansal",
+            "age": 20,
+            "email": "riya.bansal@uni.edu.in",
+            "level": "Sophomore",
+            "gpa": 8.94
+        },
+        {
+            "id": "P-022",
+            "name": "Harshvardhan Jain",
+            "age": 21,
+            "email": "harsh.jain@uni.edu.in",
+            "level": "Senior",
+            "gpa": 8.85
+        },
+        {
+            "id": "P-023",
+            "name": "Shreya Ghosh",
+            "age": 19,
+            "email": "shreya.ghosh@uni.edu.in",
+            "level": "Freshman",
+            "gpa": 9.17
+        }
+    ],
+    "enrollments": [
+        {
+            "enrollment_id": "E-001",
+            "student_id": "P-004",
+            "course_code": "CS101",
+            "enrollment_date": "2026-11-04",
+            "grade": {
+                "midterm": 92,
+                "final": 95,
+                "assignments": 98,
+                "total": 94.7,
+                "letter": "A"
+            }
+        },
+        {
+            "enrollment_id": "E-002",
+            "student_id": "P-004",
+            "course_code": "CS102",
+            "enrollment_date": "2026-11-04",
+            "grade": {
+                "midterm": 86,
+                "final": 90,
+                "assignments": 92,
+                "total": 89.2,
+                "letter": "B"
+            }
+        },
+        {
+            "enrollment_id": "E-003",
+            "student_id": "P-005",
+            "course_code": "CS101",
+            "enrollment_date": "2026-11-04",
+            "grade": {
+                "midterm": 78,
+                "final": 82,
+                "assignments": 85,
+                "total": 81.4,
+                "letter": "B"
+            }
+        },
+        {
+            "enrollment_id": "E-004",
+            "student_id": "P-005",
+            "course_code": "CS102",
+            "enrollment_date": "2026-11-04",
+            "grade": {
+                "midterm": 90,
+                "final": 94,
+                "assignments": 96,
+                "total": 93.2,
+                "letter": "A"
+            }
+        },
+        {
+            "enrollment_id": "E-005",
+            "student_id": "P-006",
+            "course_code": "CS101",
+            "enrollment_date": "2026-11-04",
+            "grade": {
+                "midterm": 85,
+                "final": 88,
+                "assignments": 90,
+                "total": 87.5,
+                "letter": "B"
+            }
+        },
+        {
+            "enrollment_id": "E-006",
+            "student_id": "P-006",
+            "course_code": "EC201",
+            "enrollment_date": "2026-11-04",
+            "grade": {
+                "midterm": 80,
+                "final": 84,
+                "assignments": 88,
+                "total": 83.6,
+                "letter": "B"
+            }
+        },
+        {
+            "enrollment_id": "E-007",
+            "student_id": "P-007",
+            "course_code": "CS102",
+            "enrollment_date": "2026-11-04",
+            "grade": {
+                "midterm": 92,
+                "final": 96,
+                "assignments": 94,
+                "total": 94.4,
+                "letter": "A"
+            }
+        },
+        {
+            "enrollment_id": "E-008",
+            "student_id": "P-007",
+            "course_code": "EC201",
+            "enrollment_date": "2026-11-04",
+            "grade": {
+                "midterm": 88,
+                "final": 90,
+                "assignments": 92,
+                "total": 89.8,
+                "letter": "B"
+            }
+        },
+        {
+            "enrollment_id": "E-009",
+            "student_id": "P-008",
+            "course_code": "CS101",
+            "enrollment_date": "2026-11-04",
+            "grade": {
+                "midterm": 88,
+                "final": 91,
+                "assignments": 94,
+                "total": 90.7,
+                "letter": "A"
+            }
+        },
+        {
+            "enrollment_id": "E-010",
+            "student_id": "P-008",
+            "course_code": "CS102",
+            "enrollment_date": "2026-11-04",
+            "grade": {
+                "midterm": 84,
+                "final": 89,
+                "assignments": 90,
+                "total": 87.7,
+                "letter": "B"
+            }
+        },
+        {
+            "enrollment_id": "E-011",
+            "student_id": "P-009",
+            "course_code": "CS102",
+            "enrollment_date": "2026-11-04",
+            "grade": {
+                "midterm": 91,
+                "final": 93,
+                "assignments": 95,
+                "total": 92.8,
+                "letter": "A"
+            }
+        },
+        {
+            "enrollment_id": "E-012",
+            "student_id": "P-009",
+            "course_code": "EC201",
+            "enrollment_date": "2026-11-04",
+            "grade": {
+                "midterm": 87,
+                "final": 89,
+                "assignments": 91,
+                "total": 88.8,
+                "letter": "B"
+            }
+        },
+        {
+            "enrollment_id": "E-013",
+            "student_id": "P-010",
+            "course_code": "CS101",
+            "enrollment_date": "2026-11-04",
+            "grade": {
+                "midterm": 75,
+                "final": 80,
+                "assignments": 82,
+                "total": 78.9,
+                "letter": "C"
+            }
+        },
+        {
+            "enrollment_id": "E-014",
+            "student_id": "P-010",
+            "course_code": "EC201",
+            "enrollment_date": "2026-11-04",
+            "grade": {
+                "midterm": 78,
+                "final": 83,
+                "assignments": 85,
+                "total": 81.9,
+                "letter": "B"
+            }
+        },
+        {
+            "enrollment_id": "E-015",
+            "student_id": "P-011",
+            "course_code": "CS101",
+            "enrollment_date": "2026-11-04",
+            "grade": {
+                "midterm": 89,
+                "final": 92,
+                "assignments": 95,
+                "total": 91.7,
+                "letter": "A"
+            }
+        },
+        {
+            "enrollment_id": "E-016",
+            "student_id": "P-011",
+            "course_code": "CS102",
+            "enrollment_date": "2026-11-04",
+            "grade": {
+                "midterm": 85,
+                "final": 88,
+                "assignments": 91,
+                "total": 87.7,
+                "letter": "B"
+            }
+        },
+        {
+            "enrollment_id": "E-017",
+            "student_id": "P-012",
+            "course_code": "CS102",
+            "enrollment_date": "2026-11-04",
+            "grade": {
+                "midterm": 82,
+                "final": 86,
+                "assignments": 88,
+                "total": 85.2,
+                "letter": "B"
+            }
+        },
+        {
+            "enrollment_id": "E-018",
+            "student_id": "P-012",
+            "course_code": "EC201",
+            "enrollment_date": "2026-11-04",
+            "grade": {
+                "midterm": 85,
+                "final": 88,
+                "assignments": 90,
+                "total": 87.5,
+                "letter": "B"
+            }
+        },
+        {
+            "enrollment_id": "E-019",
+            "student_id": "P-013",
+            "course_code": "CS101",
+            "enrollment_date": "2026-11-04",
+            "grade": {
+                "midterm": 94,
+                "final": 96,
+                "assignments": 98,
+                "total": 95.8,
+                "letter": "A"
+            }
+        },
+        {
+            "enrollment_id": "E-020",
+            "student_id": "P-013",
+            "course_code": "CS102",
+            "enrollment_date": "2026-11-04",
+            "grade": {
+                "midterm": 90,
+                "final": 93,
+                "assignments": 95,
+                "total": 92.5,
+                "letter": "A"
+            }
+        },
+        {
+            "enrollment_id": "E-021",
+            "student_id": "P-014",
+            "course_code": "CS101",
+            "enrollment_date": "2026-11-04",
+            "grade": {
+                "midterm": 80,
+                "final": 85,
+                "assignments": 87,
+                "total": 83.9,
+                "letter": "B"
+            }
+        },
+        {
+            "enrollment_id": "E-022",
+            "student_id": "P-014",
+            "course_code": "EC201",
+            "enrollment_date": "2026-11-04",
+            "grade": {
+                "midterm": 76,
+                "final": 82,
+                "assignments": 84,
+                "total": 80.6,
+                "letter": "B"
+            }
+        },
+        {
+            "enrollment_id": "E-023",
+            "student_id": "P-015",
+            "course_code": "CS101",
+            "enrollment_date": "2026-11-04",
+            "grade": {
+                "midterm": 86,
+                "final": 89,
+                "assignments": 92,
+                "total": 88.7,
+                "letter": "B"
+            }
+        },
+        {
+            "enrollment_id": "E-024",
+            "student_id": "P-015",
+            "course_code": "CS102",
+            "enrollment_date": "2026-11-04",
+            "grade": {
+                "midterm": 88,
+                "final": 91,
+                "assignments": 94,
+                "total": 90.7,
+                "letter": "A"
+            }
+        },
+        {
+            "enrollment_id": "E-025",
+            "student_id": "P-016",
+            "course_code": "CS102",
+            "enrollment_date": "2026-11-04",
+            "grade": {
+                "midterm": 83,
+                "final": 87,
+                "assignments": 89,
+                "total": 86.2,
+                "letter": "B"
+            }
+        },
+        {
+            "enrollment_id": "E-026",
+            "student_id": "P-016",
+            "course_code": "EC201",
+            "enrollment_date": "2026-11-04",
+            "grade": {
+                "midterm": 89,
+                "final": 92,
+                "assignments": 94,
+                "total": 91.5,
+                "letter": "A"
+            }
+        },
+        {
+            "enrollment_id": "E-027",
+            "student_id": "P-017",
+            "course_code": "CS101",
+            "enrollment_date": "2026-11-04",
+            "grade": {
+                "midterm": 91,
+                "final": 94,
+                "assignments": 96,
+                "total": 93.5,
+                "letter": "A"
+            }
+        },
+        {
+            "enrollment_id": "E-028",
+            "student_id": "P-017",
+            "course_code": "EC201",
+            "enrollment_date": "2026-11-04",
+            "grade": {
+                "midterm": 84,
+                "final": 88,
+                "assignments": 90,
+                "total": 87.2,
+                "letter": "B"
+            }
+        },
+        {
+            "enrollment_id": "E-029",
+            "student_id": "P-018",
+            "course_code": "CS101",
+            "enrollment_date": "2026-11-04",
+            "grade": {
+                "midterm": 77,
+                "final": 81,
+                "assignments": 84,
+                "total": 80.4,
+                "letter": "B"
+            }
+        },
+        {
+            "enrollment_id": "E-030",
+            "student_id": "P-018",
+            "course_code": "CS102",
+            "enrollment_date": "2026-11-04",
+            "grade": {
+                "midterm": 79,
+                "final": 83,
+                "assignments": 86,
+                "total": 82.4,
+                "letter": "B"
+            }
+        },
+        {
+            "enrollment_id": "E-031",
+            "student_id": "P-019",
+            "course_code": "CS102",
+            "enrollment_date": "2026-11-04",
+            "grade": {
+                "midterm": 93,
+                "final": 95,
+                "assignments": 97,
+                "total": 94.8,
+                "letter": "A"
+            }
+        },
+        {
+            "enrollment_id": "E-032",
+            "student_id": "P-019",
+            "course_code": "EC201",
+            "enrollment_date": "2026-11-04",
+            "grade": {
+                "midterm": 91,
+                "final": 93,
+                "assignments": 95,
+                "total": 92.8,
+                "letter": "A"
+            }
+        },
+        {
+            "enrollment_id": "E-033",
+            "student_id": "P-020",
+            "course_code": "CS101",
+            "enrollment_date": "2026-11-04",
+            "grade": {
+                "midterm": 82,
+                "final": 86,
+                "assignments": 88,
+                "total": 85.2,
+                "letter": "B"
+            }
+        },
+        {
+            "enrollment_id": "E-034",
+            "student_id": "P-020",
+            "course_code": "CS102",
+            "enrollment_date": "2026-11-04",
+            "grade": {
+                "midterm": 84,
+                "final": 87,
+                "assignments": 90,
+                "total": 86.7,
+                "letter": "B"
+            }
+        },
+        {
+            "enrollment_id": "E-035",
+            "student_id": "P-021",
+            "course_code": "CS101",
+            "enrollment_date": "2026-11-04",
+            "grade": {
+                "midterm": 88,
+                "final": 90,
+                "assignments": 93,
+                "total": 90.0,
+                "letter": "A"
+            }
+        },
+        {
+            "enrollment_id": "E-036",
+            "student_id": "P-021",
+            "course_code": "EC201",
+            "enrollment_date": "2026-11-04",
+            "grade": {
+                "midterm": 86,
+                "final": 89,
+                "assignments": 91,
+                "total": 88.5,
+                "letter": "B"
+            }
+        },
+        {
+            "enrollment_id": "E-037",
+            "student_id": "P-022",
+            "course_code": "CS102",
+            "enrollment_date": "2026-11-04",
+            "grade": {
+                "midterm": 87,
+                "final": 91,
+                "assignments": 93,
+                "total": 90.2,
+                "letter": "A"
+            }
+        },
+        {
+            "enrollment_id": "E-038",
+            "student_id": "P-022",
+            "course_code": "EC201",
+            "enrollment_date": "2026-11-04",
+            "grade": {
+                "midterm": 83,
+                "final": 87,
+                "assignments": 89,
+                "total": 86.2,
+                "letter": "B"
+            }
+        },
+        {
+            "enrollment_id": "E-039",
+            "student_id": "P-023",
+            "course_code": "CS101",
+            "enrollment_date": "2026-11-04",
+            "grade": {
+                "midterm": 90,
+                "final": 93,
+                "assignments": 95,
+                "total": 92.5,
+                "letter": "A"
+            }
+        },
+        {
+            "enrollment_id": "E-040",
+            "student_id": "P-023",
+            "course_code": "EC201",
+            "enrollment_date": "2026-11-04",
+            "grade": {
+                "midterm": 88,
+                "final": 91,
+                "assignments": 94,
+                "total": 90.7,
+                "letter": "A"
+            }
+        }
+    ]
+}
